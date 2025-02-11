@@ -12,11 +12,11 @@ public class Main {
 
 }
 //git init - створення репозіторія
-//git add .
-//git commit -m "first commit"
-//git branch -M main
-//git remote add origin https://github.com/Aviory/hw5.git
-//git push -u origin main
+//git add . - добавлення файлів стежити гітом
+//git commit -m "first commit" - збереження
+
+//git remote add origin https://github.com/Aviory/hw5.git  - добавлення видаленного репоз
+//git push -u origin master
 
 
 
