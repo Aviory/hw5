@@ -1,20 +1,14 @@
 import javax.swing.*;
 
 public class UI extends JFrame {
+    UI(){
+        super("Calculator");
+        this.setSize(800, 900);
 
-    public UI(){
-        setSize(1300, 1100);
-        setLayout(null);
-        setBackground(new java.awt.Color(0, 0, 0));
-        JPanel label = new Hero();
-        label.setBounds(150, 150, 128, 128);
-
-        add(label);
-
-        setVisible(true);
+        this.setVisible(true);
     }
 
-
+    public void setAnimal(Animal animal) {
+        add(animal);
+    }
 }
-
-
